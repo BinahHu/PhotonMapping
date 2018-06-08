@@ -1,0 +1,91 @@
+camera
+O 0 1 3
+sight 0 2 -1
+up 0 1 2
+f 7
+w 400
+h 400
+phyw 5
+phyh 5
+sizecoef 1.0
+end
+background
+color 0.1 0.1 0.1
+end
+obj rect floor
+N 0 0 1
+R -5
+O 20 0 -5
+Dx -40 0 0
+Dy 0 60 0
+color 1 0.5 1
+absorb 0 0 0
+refl 0.8
+refc 0.0
+diff 1.0
+abso 0.5
+spec 0.1
+texture text7.png
+end
+obj sphe S1
+O 0 11 -4.5
+R 0.5
+color 1 0 0
+incolor 1 0 0
+absorb 0.00 0.00 0.00
+refl 0.0
+refc 1.0
+diff 0.2
+abso 0.0
+spec 0.2
+n 1.5
+end
+obj sphe S2
+O -3 12 -4.5
+R 0.5
+color 1 0 0
+incolor 0 1 0
+absorb 0.00 0.00 0.00
+refl 0.0
+refc 1.0
+diff 0.2
+abso 0.0
+spec 0.2
+n 1.5
+end
+obj sphe S3
+O -3 15 -4.5
+R 0.5
+color 1 1 0
+incolor 1 1 0
+absorb 0.00 0.00 0.00
+refl 0.0
+refc 1.0
+diff 0.2
+abso 0.0
+spec 0.2
+n 1.5
+end
+obj sphe S4
+O 0.5 14 -3.5
+R 1.5
+color 1 0 0
+incolor 1 0.5 0
+absorb 0.00 0.00 0.00
+refl 0.4
+refc 0.0
+diff 0.8
+abso 0.0
+spec 0.2
+n 1.5
+texture text2.png
+end
+light area
+N 0 0 -1
+R 0
+O -20 0 10
+Dx -5 0 0
+Dy 0 5 0
+color 10 10 10
+max_photon 1000000
+end

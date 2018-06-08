@@ -1,3 +1,0 @@
-/Users/binah/StudyFiles/GradeTwo/Spring/图形学/HW_2/PhotonMapping/src/CMakeFiles/rebuild_cache.dir
-/Users/binah/StudyFiles/GradeTwo/Spring/图形学/HW_2/PhotonMapping/src/CMakeFiles/edit_cache.dir
-/Users/binah/StudyFiles/GradeTwo/Spring/图形学/HW_2/PhotonMapping/src/CMakeFiles/PhotonMapping.dir

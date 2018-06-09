@@ -1,2 +1,5 @@
 text4.png
 CMakeFiles/
+input/
+output/
+.DS_Store

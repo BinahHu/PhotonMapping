@@ -1,7 +1,6 @@
 #include "texture.h"
 #include <cmath>
 
-using namespace std;
 Color Texture::GetColor(double u, double v)
 {
     double U = u * m;

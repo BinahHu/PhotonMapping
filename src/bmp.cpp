@@ -66,9 +66,9 @@ void Bmp::Input(str file)
         data[i] = new Imgdata[n];
         for(int j = 0; j < n; j++)
         {
-            data[i][j].r = image[(i * m + j) * 3 + 0];
-            data[i][j].g = image[(i * m + j) * 3 + 1];
-            data[i][j].b = image[(i * m + j) * 3 + 2];
+            data[i][j].r = image[(i * n + j) * 3 + 0];
+            data[i][j].g = image[(i * n + j) * 3 + 1];
+            data[i][j].b = image[(i * n + j) * 3 + 2];
         }
     }
 }
@@ -80,9 +80,9 @@ void Bmp::Output(str file)
     for(int i = 0; i < m; i++)
         for(int j = 0; j < n; j++)
         {
-            image[(i * m + j) * 3 + 0] = data[i][j].r;
-            image[(i * m + j) * 3 + 1] = data[i][j].g;
-            image[(i * m + j) * 3 + 2] = data[i][j].b;
+            image[(i * n + j) * 3 + 0] = data[i][j].r;
+            image[(i * n + j) * 3 + 1] = data[i][j].g;
+            image[(i * n + j) * 3 + 2] = data[i][j].b;
         }
     unsigned error = lodepng::encode(file, image, n, m, LCT_RGB);
     std::cout << "Output Over" << std::endl;

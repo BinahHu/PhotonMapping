@@ -80,6 +80,23 @@ spec 0.2
 n 1.5
 texture text2.png
 end
+obj bezier B
+O -2 18 -5
+Dx 0 0 1
+Dy 1 0 0
+Deg 3
+P 0 0 0
+P 1 1 0
+P 2 1 0
+P 3 0 0
+color 1 0 0
+absorb 0 0 0
+refl 0.0
+refc 0.0
+diff 0.8
+abso 0.0
+spec 0.1
+end
 light area
 N 0 0 -1
 R 0

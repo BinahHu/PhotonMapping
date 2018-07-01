@@ -6,6 +6,7 @@
 #include <iostream>
 class Vector3;
 const double EPS = 1e-8;
+const double BEPS = 1e-3;
 const double PI = 3.1415926535897932384627;
 const double INF = 1e8;
 

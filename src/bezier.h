@@ -21,7 +21,6 @@ class Bezier: public Object
         void GenB(double t0);
         Vector3 GenDv(const Vector3& d);
         double iter();
-        double iterx(double x0);
 };
 
 
